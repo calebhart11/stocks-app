@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.stocks {
+  padding:2em;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.stock{
+  text-align: center;
+  /* width: 45%; */
+}
+table, th, td{
+  border: solid;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  width:100%;
+}
+.about{
+  text-align: center;
+}
+.home{
+  text-align: center;
+}
